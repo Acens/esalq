@@ -64,6 +64,15 @@
 						</ul> <!-- end ul#nav -->
 					<?php }	else echo($primaryNav); ?>
 
+					<div id="footer-secundary"  class="clearfix">
+						<?php $menuClass = 'bottom-nav';
+						$footerNav = '';
+
+						if (function_exists('wp_nav_menu')) $footerNav = wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => '', 'fallback_cb' => '', 'menu_class' => $menuClass, 'echo' => false, 'depth' => '1' ) );
+						if ($footerNav == '') show_page_menu($menuClass);
+						else echo($footerNav); ?>
+					</div>
+<!--
 					<div id="icons">
 						<span><?php echo esc_html(get_option('modest_header_tagline')); ?></span>
 						<div id="et-social-icons">
@@ -81,7 +90,7 @@
                         }
 							?>
 						</div>
-					</div>
+					</div>-->
 				</div> <!-- end #header -->
 
 				<?php do_action('et_header'); ?>

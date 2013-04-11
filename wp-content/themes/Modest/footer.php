@@ -23,7 +23,7 @@
 						<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) : ?>
 						<?php endif; ?>
 					</div> <!-- end #footer-widgets -->
-
+<!--
 					<div id="footer-bottom" class="clearfix">
 						<?php $menuClass = 'bottom-nav';
 						$footerNav = '';
@@ -34,6 +34,7 @@
 
 						<p id="copyright"><?php esc_html_e('Designed by','Modest'); ?> <a href="http://www.elegantthemes.com">Elegant WordPress Themes</a> | <?php esc_html_e('Powered by', 'Modest'); ?> <a href="http://www.wordpress.org">WordPress</a></p>
 					</div> <!-- end #footer-bottom -->
+-->
 				</div> <!-- end .container -->
 			</div> <!-- end #footer-top -->
 		</div> <!-- end .left-shadow -->

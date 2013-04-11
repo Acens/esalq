@@ -45,7 +45,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*-----------------[BASIC STYLES]-----------------*/
 /*------------------------------------------------*/
 
-body { line-height: 18px; font-family: 'Droid Sans', arial, serif; font-size: 12px; color: #3c3c3c; background: url(images/footer-bg.png); min-width: 960px; }
+body { line-height: 18px; font-family: 'Droid Sans', arial, serif; font-size: 12px; min-width: 960px; }
 
 a { text-decoration: none; color: #00b7f3; }
 a:hover { text-decoration: underline; }
@@ -94,8 +94,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 	.left-shadow { background:url(images/left-shadow.png) repeat-y top left; }
 		.container { text-align: left; margin: 0 auto; width: 960px; position: relative; }
 			#header { border-bottom: 1px solid #efefef; margin-bottom: 66px; padding-top: 70px;}
-				#logo { float: left; margin-bottom: 22px; margin-right: 26px; }
-				ul#top-menu { float: left; margin-top: 10px; }
+				#logo { float: left; margin-bottom: 22px; margin-right: 26px; margin-top: -40px;}
+				ul#top-menu { float: left; margin-top: 25px; }
 				#icons { float: right; margin-top: 17px; }
 					#icons span  { font-family: 'Josefin Sans', arial, serif; color: #a8a8a8; font-size: 14px; float: left; }
 					#et-social-icons { float: right; padding-left:23px; padding-top: 4px; }
@@ -257,6 +257,7 @@ h3#comments, #reply-title span { background: url(images/comment-title-bg.png) re
 						.footer-widget ul ul { margin-bottom:0; }
 							.footer-widget ul li { background:url(images/footer-bullet.png) no-repeat 0 7px; padding:0px 0 10px 13px; }
 							.footer-widget ul li ul { margin:0 0 -3px; padding:5px 0 0 7px; }
+			#footer-secundary {clear: both; padding-bottom: 28px; padding-top: 26px; }
 			#footer-bottom {clear: both; padding-bottom: 28px; padding-top: 26px; }
 				ul.bottom-nav li {float: left; font-size: 12px; padding-right: 19px; }
 					ul.bottom-nav li a {color:#7a7a7a; text-shadow: 1px 1px 1px #fff;}
@@ -358,3 +359,5 @@ h3#reply-title small { display: block; }
 
 .js #featured { background: url(images/ajax-loader.gif) no-repeat center 40%; }
 	.js #featured .slide { display: none; }
+
+#secundario_menu{position: relative; }
