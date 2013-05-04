@@ -1,7 +1,7 @@
-body { color: #ffffff; background: #1e2f1c; }
+body { color: #ffffff; background: #90EE90; }
 h1,h2,h3,h4,h5,h6 { color: #fff; }
-	.right-shadow { background: #273925 url(images/green/right-shadow.png) repeat-y top right; }
-		.left-shadow { background:url(images/green/left-shadow.png) repeat-y top left; }
+	.right-shadow { background: #90EE90 url(images/green/right-shadow.png) repeat-y top right; }
+		.left-shadow { background: #90EE90; }
 			#header { border-bottom: 1px solid #344732; }
 				p#quote-1 { color: #ffffff; }
 					span.tagline-quote { color: #ffffff; }
@@ -16,10 +16,10 @@ h1,h2,h3,h4,h5,h6 { color: #fff; }
 					ul#top-menu ul { background: #273925; border: 1px solid #344732; }
 						ul#top-menu ul li { background: url(images/black/footer-bullet.png) no-repeat 0px 15px; }
 
-			#footer { background: #1e2f1c; }
+			#footer { background: #90EE90; }
 				#footer .right-shadow { background: url(images/green/footer-right-shadow.png) repeat-y top right; }
 					#footer .left-shadow { background: url(images/green/footer-left-shadow.png) repeat-y top left; }
-						#footer-top { background: url(images/green/footer-top-bg.png) repeat-x;  }
+						#footer-top { background: #90EE90;  }
 							#footer-widgets { background: none; border-bottom: 1px solid #253623; }
 								#footer-logo span { text-shadow: none; }
 								.footer-widget p { color: #fefefe; text-shadow: none; }
@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6 { color: #fff; }
 									.widget ul li a:hover { color:#767676; }
 
 			h3#comments { background: url(images/green/comment-title-bg.png) repeat-x 0px 17px; color: #fff; }
-				h3#comments span { background: #273925; }
+				h3#comments span { background: #90EE90; }
 				span.fn, span.fn a { color: #ffffff; }
 				span.fn a:hover { color: #eee; }
 			.single p.description a:hover { color: #fff; }

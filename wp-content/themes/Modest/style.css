@@ -128,8 +128,8 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 				h1.category-title { font-size: 36px; color: #1d1d1d; }
 					span.tagline-quote { color: #b39d9b; }
 				p.description { font-family: 'Josefin Sans', arial, serif; font-size: 30px; color: #979797; }
-			#left-area { border-top: 1px solid #efefef; width: 669px; float:left; border-right: 1px solid #efefef; padding-bottom: 15px; }
-			#sidebar { width: 290px; float:left; border-top: 1px solid #efefef; }
+			#left-area { border-top: 1px solid #efefef; width: 800px; float:left; border-right: 1px solid #efefef; padding-bottom: 15px; }
+			#sidebar { width: 140px; float:left; border-top: 1px solid #efefef; }
 				.post { padding:25px 50px 25px 0px; }
 					.post p { line-height:21px; }
 					.post-thumbnail { display:block; float:left; position:relative; margin: 4px 24px 7px 0; width: 200px; height: 200px; }
