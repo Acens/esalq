@@ -88,6 +88,6 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 		<?php if (get_option('modest_integration_single_bottom') <> '' && get_option('modest_integrate_singlebottom_enable') == 'on') echo(get_option('modest_integration_single_bottom')); ?>
 	<?php endwhile; endif; ?>
 	</div> 	<!-- end #left-area -->
-	<?php if (!$fullwidth) get_sidebar(); ?>
+<!--	<?php if (!$fullwidth) get_sidebar(); ?>-->
 
 <?php get_footer(); ?>

@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 	<?php if ( get_option('modest_quote') == 'on' ) { ?>
-		<div id="quote">
+	<!--	<div id="quote">
 			<p id="quote-1"><span class="tagline-quote">&ldquo;</span><?php echo get_option('modest_quote_one'); ?><span class="tagline-quote">&rdquo;</span></p>
 			<p id="quote-2"><?php echo get_option('modest_quote_two'); ?></p>
-		</div> <!-- end #quote -->
+		</div> <! end #quote -->
 	<?php } ?>
 
 	<?php if ( get_option('modest_featured') == 'on' ) get_template_part('includes/featured'); ?>
@@ -22,6 +22,8 @@
 					<div class="blurb<?php if ( $i == 3 ) echo ' last'; ?>">
 						<h3 class="title"><?php the_title(); ?></h3>
 						<?php the_content(''); ?>
+						<a href="<?php echo $et_service_link; ?>" class="readmore"><span><?php esc_html_e('Leia mais...','Modest'); ?></span></a>
+						<!--<button>Leia Mais</button>-->
 					</div> <!-- end .blurb -->
 				<?php endwhile; wp_reset_query(); ?>
 			<?php } ?>

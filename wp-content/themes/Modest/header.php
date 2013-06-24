@@ -36,6 +36,7 @@
 
 </head>
 <body <?php body_class(); ?>>
+	<div class="linha"><div class="fundo-imagem"></div></div>
 	<div class="right-shadow">
 		<div class="left-shadow">
 			<div class="container clearfix<?php global $fullwidth; if ( is_page_template('page-full.php') || $fullwidth ) echo '  fullwidth'; ?>">
