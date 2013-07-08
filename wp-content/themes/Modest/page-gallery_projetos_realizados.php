@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Gallery Page
+Template Name: Projetos Realizados Page
 */
 ?>
 <?php
@@ -52,8 +52,8 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 				<?php query_posts("posts_per_page=$et_ptemplate_gallery_perpage&paged=" . $et_paged . $gallery_query); ?>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-					<?php $width = 207;
-					$height = 136;
+					<?php $width = 07;
+					$height = 236;
 					$titletext = get_the_title();
 
 					$thumbnail = get_thumbnail($width,$height,'portfolio',$titletext,$titletext,true,'Portfolio');
@@ -88,4 +88,6 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 		<?php if (get_option('modest_integration_single_bottom') <> '' && get_option('modest_integrate_singlebottom_enable') == 'on') echo(get_option('modest_integration_single_bottom')); ?>
 	<?php endwhile; endif; ?>
 	</div> 	<!-- end #left-area -->
+<!--	<?php if (!$fullwidth) get_sidebar(); ?>-->
+
 <?php get_footer(); ?>
