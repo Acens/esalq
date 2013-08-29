@@ -17,7 +17,7 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 
 	<?php get_template_part('includes/top_info'); ?>
 
-	<div id="left-area" style="border-right: none; width: 960px; ">
+	<div id="left-area" style="border-right: none; width: 960px; "
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<?php if (get_option('modest_integration_single_top') <> '' && get_option('modest_integrate_singletop_enable') == 'on') echo(get_option('modest_integration_single_top')); ?>
 
@@ -52,8 +52,8 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 				<?php query_posts("posts_per_page=$et_ptemplate_gallery_perpage&paged=" . $et_paged . $gallery_query); ?>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-					<?php $width = 07;
-					$height = 236;
+					<?php $width = 207;
+					$height = 136;
 					$titletext = get_the_title();
 
 					$thumbnail = get_thumbnail($width,$height,'portfolio',$titletext,$titletext,true,'Portfolio');
@@ -65,7 +65,6 @@ $et_ptemplate_gallery_perpage = isset( $et_ptemplate_settings['et_ptemplate_gall
 							<span class="overlay"></span>
 
 							<a class="zoom-icon fancybox" title="<?php the_title_attribute(); ?>" rel="gallery" href="<?php echo($thumbnail['fullpath']); ?>"><?php esc_html_e('Zoom in','Modest'); ?></a>
-							<a class="more-icon" href="<?php the_permalink(); ?>"><?php esc_html_e('Read more','Modest'); ?></a>
 						</div> <!-- end .et_pt_item_image -->
 					</div> <!-- end .et_pt_gallery_entry -->
 
